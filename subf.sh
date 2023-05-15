@@ -1,6 +1,6 @@
 #!/bin/bash
 
-Example: ./subf.sh -u <USERNAME> [-w top12000.txt] [-t 0.9] [-s 0.007]
+echo "contoh: ./subf.sh -u <USERNAME> [-w top12000.txt] [-t 0.9] [-s 0.007]"
 
 WORDLIST="top12000.txt"
 USER=""
