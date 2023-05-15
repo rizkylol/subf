@@ -27,7 +27,7 @@ su_try_pwd (){
   PASSWORDTRY=$2
   trysu=`echo "$PASSWORDTRY" | timeout $TIMEOUTPROC su $USER -c whoami 2>/dev/null` 
   if [ "$trysu" ]; then
-    echo "  You can login as $USER using password: $PASSWORDTRY" | sed "s,.*,${C}[1;31;103m&${C}[0m,"
+    echo "Berhasil Silahkan Login $USER Menggunakan Password: $PASSWORDTRY" | sed "s,.*,${C}[1;31;103m&${C}[0m,"
     exit 0;
   fi
 }
